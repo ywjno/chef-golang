@@ -1,0 +1,5 @@
+export GOOS=linux
+export GOARCH=<%= @arch %>
+export GOROOT=<%= @prefix %>/go
+export GOPATH=<%= @path %>
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
